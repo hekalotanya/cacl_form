@@ -43,7 +43,11 @@ export class App extends React.Component {
         break;
 
       case 'Division':
-        result = Math.round(value_1 / value_2).toString();
+        if (value_2 === 0) {
+          result = '0';
+        } else {
+          result = Math.round(value_1 / value_2).toString();
+        }
         this.setState({result: result});
         console.log('Division')
         break;
@@ -69,10 +73,10 @@ export class App extends React.Component {
               onChange={this.onChange}
               className="select"
             >
-              <option value="Addition">+</option>
-              <option value="Subtraction">-</option>
-              <option value="Multiplication">*</option>
-              <option value="Division">/</option>
+              <option value="Addition">+ Addition</option>
+              <option value="Subtraction">- Subtraction</option>
+              <option value="Multiplication">* Multiplication</option>
+              <option value="Division">/ Division</option>
             </select>
           </label>
           <Button variant="contained" type='submit'>
