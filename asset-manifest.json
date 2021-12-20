@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cacl_form/static/css/main.43278ec7.css",
+    "main.js": "/cacl_form/static/js/main.827a9334.js",
+    "static/js/787.cfd8f164.chunk.js": "/cacl_form/static/js/787.cfd8f164.chunk.js",
+    "index.html": "/cacl_form/index.html",
+    "main.43278ec7.css.map": "/cacl_form/static/css/main.43278ec7.css.map",
+    "main.827a9334.js.map": "/cacl_form/static/js/main.827a9334.js.map",
+    "787.cfd8f164.chunk.js.map": "/cacl_form/static/js/787.cfd8f164.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43278ec7.css",
+    "static/js/main.827a9334.js"
+  ]
+}
